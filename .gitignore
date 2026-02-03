@@ -69,6 +69,14 @@ web-build/
 seed-response.json
 CONTURI_SEED.txt
 
+# Sensitive configuration files (keep structure, remove secrets)
+# Note: appsettings.json contains database credentials - should be in .env or user secrets
+StepUp.API/appsettings.json
+StepUp.API/appsettings.Development.json
+
+# Uploads folder (user-generated content)
+StepUp.API/uploads/
+
 # User-specific files
 *.rsuser
 *.suo
@@ -76,3 +84,21 @@ CONTURI_SEED.txt
 *.userosscache
 *.sln.docstates
 
+# Android build files
+StepUp.Mobile/android/app/build/
+StepUp.Mobile/android/.gradle/
+StepUp.Mobile/android/local.properties
+
+# iOS build files
+StepUp.Mobile/ios/build/
+StepUp.Mobile/ios/Pods/
+
+# Logs
+*.log
+logs/
+
+# Documentation files (not needed in repository)
+*.md
+
+# PowerShell scripts (not needed in repository)
+*.ps1
