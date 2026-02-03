@@ -1,0 +1,23 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "YOUR_DATABASE_CONNECTION_STRING_HERE"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "Email": {
+    "SmtpHost": "smtp.gmail.com",
+    "SmtpPort": 587,
+    "SmtpUsername": "YOUR_EMAIL_HERE",
+    "SmtpPassword": "YOUR_APP_PASSWORD_HERE",
+    "FromEmail": "YOUR_EMAIL_HERE",
+    "FromName": "StepUp"
+  },
+  "AppSettings": {
+    "BaseUrl": "YOUR_BASE_URL_HERE"
+  }
+}

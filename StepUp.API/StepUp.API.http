@@ -1,0 +1,6 @@
+@StepUp.API_HostAddress = http://localhost:5205
+
+GET {{StepUp.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
